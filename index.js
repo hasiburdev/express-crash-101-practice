@@ -14,6 +14,11 @@ app.get("/", (req, res) => {
     }
   });
 });
+app.get("/api", (req, res) => {
+  res.json({
+    message: "Successfully Deployed!",
+  });
+});
 
 app.use((req, res, next) => {
   const error = new Error("404 Not Found!");
