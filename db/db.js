@@ -56,6 +56,8 @@ class MyDB {
     return ticket;
   }
 
+  // TODO: Need to continue from lecture 17. 46:00
+
   updateById() {}
 
   deleteById() {}
